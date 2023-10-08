@@ -1,0 +1,24 @@
+.calculator {
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    outline: dashed 2px black;
+    flex-wrap: wrap;
+    gap: 0;
+    height: 225px;
+}
+
+.output {
+    height: 50px;
+    width: 100px;
+    outline: solid 2px blue;
+}
+
+button {
+    flex: 1;
+}
+
+.double-wide {
+    flex: 2;
+}
